@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Ubuntu:100,200,300,400,500,600,700');
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("/images/jyoti.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: cover;
+    min-height: 350px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
