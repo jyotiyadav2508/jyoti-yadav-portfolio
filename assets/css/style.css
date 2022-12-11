@@ -58,10 +58,11 @@ header {
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 28px;
+    margin-top: 15px;
     color: #fff;
     margin-bottom: 60px;
+    letter-spacing: 1.2px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -74,7 +75,45 @@ our HTMLfile visible as a single space between our items  */
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
-    font-size: 14px;
+    font-size: 15px;
     padding: 0;
+}
+
+.menuitem {
+    height: 110px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: #fff;
+    height: 110px;
+    width: 100%;
+    /* font-size: 20px; */
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    display: block;
+    font-size: 18px;
+}
+
+.menuitem span {
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* ------------------------------------Hover.css */
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 110px;
 }
