@@ -7,6 +7,10 @@
     background-color: #B85042;
 }
 
+.bg-color-section-contact {
+    background-color: #f0e3e1;
+}
+
 .li-menu-color-home {
 
     /* background-color: #8a5ef2; */
@@ -132,6 +136,62 @@ our HTMLfile visible as a single space between our items  */
     font-weight: 400;
 }
 
+.section-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: normal;
+}
+
+.contact-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid rebeccapurple;
+}
+
+.welcome-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #B85042;
+}
+
+.about-me-text {
+    font-size: 18px;
+}
+
+.about-me {
+    padding: 25px;
+}
+
+.my-contact {
+    padding: 20px;
+    /* padding-left: 30px; */
+
+}
+
+.my-contact span {
+    font-size: 18px;
+}
+
+.my-contact a i,
+.my-contact i {
+    padding: 10px;
+    margin: 3px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fafafa;
+    background: #423e3e;
+
+}
+
+.my-contact a i:hover {
+    background: #B85042;
+}
+
 /* ------------------------------------Hover.css */
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
@@ -168,7 +228,7 @@ footer {
 
 .social-links li a i {
     padding: 10px;
-    margin: 5px;
+    margin: 2px;
     width: 35px;
     height: 35px;
     border-radius: 50%;
