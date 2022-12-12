@@ -8,12 +8,13 @@
 }
 
 .bg-color-section-contact {
-    /* background-color: #f0e3e1; */
-    background-color: #3A6B35;
+    background-color: #f0e3e1;
+    /* background-color: #3A6B35; */
 }
 
 .bg-color-key-skills {
     background-color: #8A307F;
+    /* background-color: #f0e3e1; */
 }
 
 .li-menu-color-home {
@@ -64,11 +65,16 @@ header {
 }
 
 .logo {
-    background: url("/images/jyoti-photo.jpg");
+    background: url("/images/jyoti.jpg");
     background-position: center;
     background-repeat: no-repeat;
     border-style: cover;
-    min-height: 350px;
+    /* left: 0; */
+    /* width: 350px; */
+    height: 280px;
+    background-color: #f0e3e1;
+
+    /* min-height: 350px; */
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -78,7 +84,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     font-size: 45px;
-    margin-top: 56px;
+    margin-top: 30px;
     color: #fff;
 }
 
@@ -89,7 +95,7 @@ header {
     font-size: 28px;
     margin-top: 21px;
     color: #fff;
-    margin-bottom: 65px;
+    margin-bottom: 40px;
     letter-spacing: 1.2px;
 }
 
@@ -117,7 +123,7 @@ HTMLfile visible as a single space between our items  */
 }
 
 .menuitem {
-    height: 120px;
+    height: 100px;
     text-align: center;
     padding: 0;
 }
@@ -125,19 +131,19 @@ HTMLfile visible as a single space between our items  */
 .menuitem a {
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 100px;
     width: 100%;
     /* font-size: 20px; */
 }
 
 .menuitem a i {
-    padding-top: 25px;
+    padding-top: 20px;
     display: block;
     font-size: 18px;
 }
 
 .menuitem span {
-    padding-top: 15px;
+    padding-top: 10px;
     display: block;
     font-size: 15px;
     text-transform: uppercase;
@@ -164,7 +170,7 @@ HTMLfile visible as a single space between our items  */
 }
 
 .about-me {
-    padding: 25px;
+    padding: 30px;
 }
 
 /* ----------------------------------------------------------contact section */
@@ -172,20 +178,22 @@ HTMLfile visible as a single space between our items  */
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 24px;
-    color: #fff;
+    /* color: #fff; */
     /* text-decoration: underline; */
     border-bottom: 1px solid rebeccapurple;
 }
 
 .my-contact {
     padding: 20px;
-    /* padding-left: 30px; */
+    padding-top: 40px;
+    height: 410px;
+    /* height: 50vh; */
 
 }
 
 .my-contact span {
     font-size: 18px;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .my-contact a i,
@@ -207,7 +215,7 @@ HTMLfile visible as a single space between our items  */
 /* ------------------------------------------------------------Hover.css */
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 100px;
 }
 
 /* ------------------------------------------------------Key Skills section */
@@ -247,6 +255,12 @@ HTMLfile visible as a single space between our items  */
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     font-size: 24px;
+    color: #B85042;
+}
+
+.education-section i {
+    color: #423e3e;
+    padding-right: 10px;
 }
 
 .table-responsive {
@@ -266,11 +280,22 @@ HTMLfile visible as a single space between our items  */
     border: 1px solid rgb(221, 215, 215);
 }
 
-.language-skills {
+.language h3 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     font-size: 20px;
+    color: #B85042;
 
+}
+
+.language-skills {
+    font-family: 'Railway', sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.progress-bar {
+    background-color: #bb5c4f;
 }
 
 /* ----------------------------------------------------------------Footer */
@@ -278,7 +303,10 @@ footer {
     background-color: #B85042;
     color: #fafafa;
     margin: 0;
-    min-height: 120px;
+    max-height: 120px;
+    /* bottom: 0;
+    left: 0; */
+    /* position: fixed; */
 }
 
 #footer-content {
