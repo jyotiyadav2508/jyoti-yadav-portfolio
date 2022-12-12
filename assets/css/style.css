@@ -261,6 +261,18 @@ HTMLfile visible as a single space between our items  */
     font-size: 18px;
 }
 
+.languages {
+    padding: 25px;
+    border: 1px solid rgb(221, 215, 215);
+}
+
+.language-skills {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
 /* ----------------------------------------------------------------Footer */
 footer {
     background-color: #B85042;
