@@ -17,6 +17,10 @@
     /* background-color: #f0e3e1; */
 }
 
+.bg-color-my-projects {
+    background-color: #f0e3e1;
+}
+
 .li-menu-color-home {
 
     /* background-color: #8a5ef2; */
@@ -73,6 +77,7 @@ header {
     /* width: 350px; */
     height: 280px;
     background-color: #f0e3e1;
+    border-bottom: 2px solid rebeccapurple;
 
     /* min-height: 350px; */
     transition: all .5s ease-in-out;
@@ -93,7 +98,7 @@ header {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 28px;
-    margin-top: 21px;
+    margin-top: 22px;
     color: #fff;
     margin-bottom: 40px;
     letter-spacing: 1.2px;
@@ -176,8 +181,8 @@ HTMLfile visible as a single space between our items  */
 /* ----------------------------------------------------------contact section */
 .contact-heading {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 22px;
     /* color: #fff; */
     /* text-decoration: underline; */
     border-bottom: 1px solid rebeccapurple;
@@ -277,7 +282,7 @@ HTMLfile visible as a single space between our items  */
 
 .languages {
     padding: 25px;
-    border: 1px solid rgb(221, 215, 215);
+    border: 2px solid rgb(221, 215, 215);
 }
 
 .language h3 {
@@ -346,4 +351,64 @@ footer {
 
 .social-links li a i:hover {
     background: rgb(31, 28, 28);
+}
+
+/* ------------------------------------------------------My Projects */
+#myproject img {
+    width: 90%;
+    height: 45vh;
+    border: 1px solid brown;
+
+}
+
+.project-heading h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    color: #822b1f;
+    letter-spacing: 2px;
+}
+
+.project-heading h3 i {
+    margin: 0 15px;
+    font-size: 25px;
+    color: #2a2828;
+
+}
+
+#myproject a {
+    display: block;
+}
+
+.project-name {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.technology-used i {
+    font-size: 25px;
+    /* padding-left: 20%; */
+
+    background-color: #f0b2ab;
+
+    height: 35px;
+    width: 35px;
+    padding: 6px;
+    border-radius: 40%;
+}
+
+.technology-used h5 {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+#myproject {
+    padding: 30px;
+    padding-left: 50px;
 }
