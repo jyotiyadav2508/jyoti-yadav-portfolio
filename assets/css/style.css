@@ -13,12 +13,17 @@
 }
 
 .bg-color-key-skills {
-    background-color: #8A307F;
-    /* background-color: #f0e3e1; */
+    /* background-color: #8A307F; */
+    background-color: #f0e3e1;
 }
 
 .bg-color-my-projects {
     background-color: #f0e3e1;
+}
+
+.bg-color-contact {
+    background-color: #f0e3e1;
+    background-color: #fff;
 }
 
 .li-menu-color-home {
@@ -45,6 +50,7 @@ h2,
 h3,
 h4 {
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .uppercase {
@@ -69,17 +75,13 @@ header {
 }
 
 .logo {
-    background: url("/images/jyoti.jpg");
+    background: url("/assets/images/jyoti-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     border-style: cover;
-    /* left: 0; */
-    /* width: 350px; */
     height: 280px;
     background-color: #f0e3e1;
-    border-bottom: 2px solid rebeccapurple;
-
-    /* min-height: 350px; */
+    border-bottom: 1px solid #B85042;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -94,7 +96,6 @@ header {
 }
 
 .title {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 28px;
@@ -183,8 +184,6 @@ HTMLfile visible as a single space between our items  */
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     font-size: 22px;
-    /* color: #fff; */
-    /* text-decoration: underline; */
     border-bottom: 1px solid rebeccapurple;
 }
 
@@ -192,7 +191,6 @@ HTMLfile visible as a single space between our items  */
     padding: 20px;
     padding-top: 40px;
     height: 410px;
-    /* height: 50vh; */
 
 }
 
@@ -230,24 +228,23 @@ HTMLfile visible as a single space between our items  */
 }
 
 .key-skills h3 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 26px;
-    color: #fff;
-    border-bottom: 1px solid white;
+    color: #5f160c;
+    border-bottom: 1px solid #5f160c;
     letter-spacing: 1.5px;
 }
 
 .skills-heading {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
-    color: #fff;
+    color: #7e1f12;
 }
 
 .skills-list-item li {
     font-size: 15px;
-    color: #fff;
+    color: #1e1d1d;
 
 }
 
@@ -257,7 +254,6 @@ HTMLfile visible as a single space between our items  */
 }
 
 .education-section h3 {
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #B85042;
@@ -286,7 +282,6 @@ HTMLfile visible as a single space between our items  */
 }
 
 .language h3 {
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: #B85042;
@@ -355,14 +350,17 @@ footer {
 
 /* ------------------------------------------------------My Projects */
 #myproject img {
-    width: 90%;
-    height: 45vh;
+    width: 100%;
+    height: 35vh;
     border: 1px solid brown;
 
 }
 
+.project-item {
+    margin: 5px 40px;
+}
+
 .project-heading h3 {
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     text-align: center;
     font-size: 30px;
@@ -392,10 +390,7 @@ footer {
 
 .technology-used i {
     font-size: 25px;
-    /* padding-left: 20%; */
-
     background-color: #f0b2ab;
-
     height: 35px;
     width: 35px;
     padding: 6px;
@@ -409,6 +404,42 @@ footer {
 }
 
 #myproject {
-    padding: 30px;
-    padding-left: 50px;
+    padding-bottom: 40px;
+
+}
+
+/* ----------------------------------------------------------Contact form */
+.contact-form-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.contact-form-subheading {
+    font-family: 'Railway', sans-serif;
+    margin-bottom: 0;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 17px;
+    margin-bottom: 23px;
+    color: #fafafa;
+    background-color: rgb(26, 167, 89);
+}
+
+/* -----------------------------------------------------------Media queries */
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
