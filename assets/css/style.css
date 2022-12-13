@@ -71,7 +71,7 @@ header {
     background: url("/assets/images/jyoti-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    border-style: cover;
+    background-size: cover;
     height: 280px;
     background-color: #f0e3e1;
     border-bottom: 1px solid #B85042;
@@ -300,7 +300,7 @@ HTMLfile visible as a single space between our items  */
 .language-skills {
     font-family: 'Railway', sans-serif;
     font-size: 18px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .progress-bar {
