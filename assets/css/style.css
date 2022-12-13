@@ -67,17 +67,13 @@ header {
     margin-left: 50px;
 }
 
-.logo {
-    background: url("/assets/images/jyoti-pic.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.logo img {
     height: 280px;
-    background-color: #f0e3e1;
-    border-bottom: 1px solid #B85042;
+    width: 100%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+
 }
 
 .name {
@@ -183,7 +179,7 @@ HTMLfile visible as a single space between our items  */
 }
 
 .my-contact {
-    padding: 20px;
+    padding: 10px;
     padding-top: 40px;
 
 }
@@ -191,7 +187,7 @@ HTMLfile visible as a single space between our items  */
 .my-contact span {
     font-size: 18px;
     color: black;
-    margin: 5px;
+    margin: 3px;
 }
 
 .my-contact a i,
