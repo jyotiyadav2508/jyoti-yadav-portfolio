@@ -69,7 +69,8 @@ header {
 
 .logo img {
     height: 280px;
-    width: 100%;
+    width: 85%;
+    margin-left: 25px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -399,15 +400,6 @@ footer {
     margin: 10px;
 }
 
-.technology-used i {
-    font-size: 25px;
-    background-color: #f0b2ab;
-    height: 35px;
-    width: 35px;
-    padding: 6px;
-    border-radius: 40%;
-}
-
 .technology-used h5 {
     font-size: 18px;
     font-weight: 400;
@@ -415,7 +407,37 @@ footer {
     text-align: center;
 }
 
+.technology-used i {
+    font-size: 25px;
+    background-color: #f0b2ab;
+    height: 35px;
+    width: 35px;
+    padding: 6px;
+    border-radius: 40%;
+    position: relative;
+}
 
+.technology-used i span {
+    visibility: hidden;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.technology-used i:hover span {
+    cursor: pointer;
+    visibility: visible;
+
+}
 
 /* ------------------------------------Media Quaries for my project page */
 @media(min-width:992px) {
